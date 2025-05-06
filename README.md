@@ -14,17 +14,7 @@ MusicManager is a Java Swing-based desktop application that connects to a MySQL 
 - JDBC (for database connectivity)
 - MySQL (as the database)
 
-## Database Setup
-Database: `music`  
-Table: `misc`
 
-```sql
-CREATE TABLE misc (
-  id INT PRIMARY KEY AUTO_INCREMENT,
-  music_name VARCHAR(100),
-  artist VARCHAR(100),
-  genre VARCHAR(50)
-);
 
 How to Run
 
